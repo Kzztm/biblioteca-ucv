@@ -52,8 +52,8 @@ inicializar_bd()
 st.title("📚 Sistema de Biblioteca Universitaria")
 st.write("Panel de control para registro y préstamo de material bibliográfico.")
 
-# --- CRÉDITOS DEL AUTOR ---
-st.sidebar.image("https://www.ucv.edu.pe/wp-content/uploads/2020/01/logo-ucv.png", use_container_width=True)
+
+st.sidebar.markdown("# 🏛️")
 st.sidebar.markdown("---")
 st.sidebar.markdown("### 💻 Desarrollador:")
 st.sidebar.markdown("**Miguel Hernán Talledo Talledo**")
