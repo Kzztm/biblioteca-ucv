@@ -52,7 +52,14 @@ inicializar_bd()
 st.title("📚 Sistema de Biblioteca Universitaria")
 st.write("Panel de control para registro y préstamo de material bibliográfico.")
 
-
+# --- CRÉDITOS DEL AUTOR ---
+st.sidebar.image("https://www.ucv.edu.pe/wp-content/uploads/2020/01/logo-ucv.png", use_container_width=True)
+st.sidebar.markdown("---")
+st.sidebar.markdown("### 💻 Desarrollador:")
+st.sidebar.markdown("**Miguel Hernán Talledo Talledo**")
+st.sidebar.markdown("*Estudiante de Ingeniería de Sistemas*")
+st.sidebar.markdown("📍 **UCV - Piura**")
+st.sidebar.markdown("---")
 menu = ["Registrar Libro", "Ver Inventario", "Registrar Estudiante", "Realizar Préstamo", "Ver Préstamos Activos"]
 eleccion = st.sidebar.selectbox("Menú de Navegación", menu)
 
